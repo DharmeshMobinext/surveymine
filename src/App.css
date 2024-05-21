@@ -36,3 +36,99 @@
     transform: rotate(360deg);
   }
 }
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+.header {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+  font-size: 1.5em;
+}
+
+/* Export Button Styles */
+.export-button {
+  text-align: center;
+  margin: 1em 0;
+}
+
+.export-button button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.export-button button:hover {
+  background-color: #45a049;
+}
+
+/* Resume Container Styles */
+.resume-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1em;
+}
+
+/* Individual Resume Styles */
+.resume {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 1em;
+  padding: 1em;
+  width: 80%;
+  max-width: 800px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.resume h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 0.5em;
+}
+
+.resume-section {
+  margin-bottom: 1em;
+}
+
+.resume-section h2 {
+  color: #4CAF50;
+  border-bottom: 2px solid #4CAF50;
+  padding-bottom: 0.2em;
+  margin-bottom: 0.5em;
+}
+
+.resume-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1em;
+}
+
+.resume-table th,
+.resume-table td {
+  border: 1px solid #ddd;
+  padding: 0.5em;
+  text-align: left;
+}
+
+.resume-table th {
+  background-color: #f9f9f9;
+  font-weight: bold;
+}
+
+.resume-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
